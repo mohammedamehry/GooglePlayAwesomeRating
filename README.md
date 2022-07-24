@@ -4,6 +4,8 @@
 
 An Easy Android Library tha help you get reviews and ratings for your android app and it's easy to implement.
 
+![Native Example](https://github.com/mohammedamehry/GooglePlayAwesomeRating/blob/f554b3332ca078529ceb05f3548e10a546a30b1e/screenshot.png)
+
 ## Installation :
 
 *Step 1.* Add the JitPack repository to your project `build.gradle` file
