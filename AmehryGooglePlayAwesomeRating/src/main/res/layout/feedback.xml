@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    android:layout_margin="10dp"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/blackTransparent"
+            android:textSize="18sp"
+            android:text="Please give us your feedback"
+            android:fontFamily="sans-serif-black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:elevation="10dp"
+            android:layout_margin="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/Feedback"
+                android:padding="10dp"
+                android:maxLines="8"
+                android:ellipsize="end"
+                android:gravity="top|start"
+                android:hint="what's your feedback"
+                android:background="@drawable/btninactive"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_weight="1.5"
+                android:visibility="visible"
+                android:text="Dismiss"
+                android:textColor="@color/blackTransparent"
+                android:id="@+id/ExitFeedback"
+                android:fontFamily="sans-serif-medium"
+                android:textAllCaps="false"
+                android:layout_marginEnd="20dp"
+                android:textStyle="bold"
+                android:background="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_weight="1"
+                android:visibility="visible"
+                android:text="Send Feedback"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:fontFamily="sans-serif-medium"
+                android:background="@drawable/btnactive"
+                android:textColor="@color/white"
+                android:id="@+id/SubmitFeedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
