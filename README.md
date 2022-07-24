@@ -39,10 +39,10 @@ ShowAd.setOnClickListener(view -> {
 #### Library Attributes
 | Attribute | Description |
 | --- | --- |
-| `shouldReceiveFeedback` | `booleanb` if it's true then the user will have to fill i ¡n feedback form -- if it's false the feedback form will be dismissed  |
-| `banner_contentColor` | Color of the banner content : title and description (description by default color : gray) |
-| `banner_installColor` | Install button color : default is blue |
-| `banner_installTitle` | Title of button : default is "Install" |
+| `Activity` | `Activity` Your Activity Context |
+| `shouldReceiveFeedback` | `Boolean` If it's true then the user will have to fill ¡n feedback form -- if it's false the feedback form will be dismissed  |
+| `FeedbackEmail` | `String` Your email address in which you will receive users feedback if they choose to send it |
+
 
 
 
