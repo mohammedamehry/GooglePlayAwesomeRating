@@ -33,7 +33,7 @@ in this example i implemented it inside a button :
 
 ```java
 ShowAd.setOnClickListener(view -> {
-            Amehry.ShowRating(this,true,"Mohammedamehry@icloud.com");
+            Amehry.ShowRating(this,true,"mohammedamehry@domain.com");
         });
 ```
 #### Library Attributes
