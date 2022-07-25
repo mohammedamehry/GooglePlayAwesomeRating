@@ -17,7 +17,7 @@ allprojects {
     }
 }
 ```
-*Step 2.* Add the dependency in the form
+*Step 2.* Add the dependency 
 ```gradle
 dependencies {
   implementation 'com.github.mohammedamehry:GooglePlayAwesomeRating:version1.0'
